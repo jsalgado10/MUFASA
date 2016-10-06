@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value> JAJEP Inc. (Jhovani, Arturo, Jose, Edgar, and Patel)
+
+
+Basic Tab
+__________________________________________________________________________________________________
+•	Click the File on the top left corner to select from various options.
+ 
+•	Please click on the “Import” option to select from various import data files.
+ 
+•	The user must import Professor’s data before any calculations being made. To 
+                calculate the UH professor’s data please click on the first option “Professor Data.” 
+                After choosing the Professors Data please select the file.
+ 
+•	If the user wishes to calculate the Compression data please click on the second 
+                option “Compression Data.”
+ 
+•	If the user wishes to calculate the Equity data please click on the third option 
+                “Equity Data.” If the user wishes to calculate the UH equity data please select the 
+                 first option “UH Data” or if the user wishes to calculate the Tier 1 data please select
+                 the second option “Tier 1 Data.”
+ 
+•	After the calculations are made and if the user wishes to export the data to a different
+                file please click on the fourth option “Export.”
+ 
+•	Under the File menu if the user wishes to save the data at any time please click on the
+                “Save Work Space.”
+ 
+•	If at any time the user wishes to exit the software please click on the “Exit” under the 
+                File menu. 
+
+•	If the user wishes to view the Basic data, please click on the first tab “Basic.”
+ 
+•	If the user wishes to view the Compression data, click on the second tab “Compression.”
+
+•	If the user wishes to view the Equity data, please click on the third tab “Equity.”
+ 
+•	If the user wisher to add new formulas to calculate the other functions, please click on 
+                the fourth tab “Formulas.”
+
+•	If the user wishes to view more options, please go to Tools menu and click on the first 
+                option “Option.”
+ 
+•	If the user wishes to add any employee’s data, please go to Tools menu and click on 
+                the second option “Add Employee Data.”
+ 
+•	After the file “Professor Data” is imported, if the user wishes to view the employee by 
+                their job title then please select the options populated from the filter Job Title
+
+•	After either of the file “Professor Data” is imported, if the user wishes to view the employee
+                by their Department ID then please select the options populated 
+                from the filter Dept ID.
+
+•	After either of the file “Professor Data” is imported, if the user wishes to view the employee 
+                by their Gender then please select the options populated in the filter Gender. Please click 
+                “All” if the user wishes to filter the data with all genders. Please click “Female” if the user 
+                 wishes to filter the data with female gender. Please click “Male” if the user wishes to filter 
+                 the data with male gender.
+
+•	If at any time the user wishes to reset the filters, please click on the “Reset All” button to 
+                reset all the filters.
+
+•	 After choosing the filters, if the user wishes to view calculated value of Mean, 1st Quartile,
+                 3rd Quartile, and Median, please click on the “Calculate” button to view all the calculated 
+                values respectively.
+
+•	For the compression data, if the user wishes to filter from the Dept ID, please select the 
+                options from the populated data.
+
+•	For the compression data, if the user wishes to filter from the Gender option, please select the 
+                options from the “All,” or “Female,” or “Male.”
+
+•	For the compression data, the user has to input the values for Compression Variables “d” and “k.”
+
+•	If the user wishes to view the calculated values of Actual Medians, Adjust Medians and 
+                Compression Ratio, please click on the “Calculate” button.
+
+•	For the Equity Data, if the user wants to filter from the Dept ID, please select the options from the 
+                populated data.
+
+•	For the Equity Data, if the user wishes to calculate the Internal Equity, please select the numerator
+                from the drop down menu and select the denominator.
+
+•	For the Equity Data, to view the internal equity calculated value, please click “Calculate.”
+
+•	For the Equity Data, if the user wishes to calculate the External Equity, please select the numerator
+                from the drop down menu and select the denominator.
+
+•	For the Equity Data, to view the internal equity calculated value, please click “Calculate.”
+
+•	If the user wishes to add new formulas, please select from the Formula List and write the formula 
+                as desired in the Formula box and then click “Save” and if the user wishes to edit the formula 
+                please select the formula from the formula box and then click “Edit.”</value>
+  </data>
+</root>
